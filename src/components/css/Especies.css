@@ -1,0 +1,29 @@
+.Border{
+    border-style: solid;
+    border-color: azure;
+    
+}
+
+p{
+    text-align: center;
+    color: white
+}
+
+h1 {
+    
+    color:aqua;
+    text-align: center;
+}
+h2{
+    color:aqua;
+    text-align: center;
+}
+h3{
+    color:aqua;
+    text-align: center;
+}
+h4{
+    color:aqua;
+    text-align: center;
+    top: 30px;
+}
