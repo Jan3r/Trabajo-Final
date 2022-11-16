@@ -1,6 +1,6 @@
 
 import React from 'react';
-import '../imagenes/css/Especies.css'
+import '../css/Especies.css'
 export const Especies = () =>{
 
     return(

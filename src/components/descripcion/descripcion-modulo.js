@@ -1,5 +1,5 @@
 import React from 'react';
-import '../imagenes/css/Descripcion.css'
+import '../css/Descripcion.css'
 export const Tort = () =>{
     return(
 
