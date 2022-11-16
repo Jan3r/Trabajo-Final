@@ -1,8 +1,11 @@
+
+import React from 'react';
+import '../imagenes/css/Especies.css'
 export const Especies = () =>{
 
     return(
 
-        <div>
+        <div class='Border'>
     <h1> DISTINTAS ESPECIES DE REPTILES </h1>
 
     <p> En el reino animal exiten distintos tipos de reptiles con caracteristicas ciertamente
@@ -26,20 +29,100 @@ export const Especies = () =>{
     <p> Se conocen aproximadamente unas 8000 especies de reptiles en todo el mundo y 
     la ciencia que se encarga de estudiar a estos animales (y a los anfibios) es la herpetología. </p>
 
-    <h2> Tortugas(Quelonios) </h2>
+   </div>
+      
+   )
+}
 
-    <h3> Tortuga mora (Testudo graeca) </h3>
+export const Tortuga = () => {
+
+return(
+    <div>
+        <h2> Tortugas(Quelonios) </h2>
+
+<h3> Tortuga mora (Testudo graeca) </h3>
+
+<h4> Orden: </h4>
+<p> Quelonia </p>
+
+<h4> Familia: </h4>
+<p> Testudinidae </p>
+    </div>
+    
+)}
+
+export const Lagarto = () => {
+    return(
+        <div>
+        <h2> Lagartos (saurios) </h2>
+
+  <h3> Salamanquesa común (Tarentola mauritanica) </h3>
+
+  <h4> Orden: </h4>
+  <p>Squamata</p>
+
+  <h4> Familia: </h4>
+  <p> Gekkonidae </p>
+        </div>
+    )
+}
+
+export const Lagartijo = () => {
+    return(
+        <div>
+        <h3> Lagartija colirroja (Acanthodactylus erythrurus) </h3>
+
+<h4> Orden: </h4>
+<p>Squamata</p>
+
+<h4> Familia: </h4>
+<p> Lacertidae </p>
+        </div>
+    )
+}
+
+export const Culebra = () => {
+    return (
+        <div>
+    <h2> Serpientes/Culebras (Ofidios) </h2>
+    
+    <h3> Culebrilla ciega (Blanus cinereus) </h3>
+
+<h4> Orden: </h4>
+<p>Squamata</p>
+
+<h4> Familia: </h4>
+<p> Amphisbaenidae </p>
+        </div>
+    )
+}
+
+export const Serpiente = () => {
+    return(
+        <div>
+        <h3> Culebra lisa meridional (Coronella girondica) </h3>
 
     <h4> Orden: </h4>
-    <p> Quelonia </p>
-    
-    <h4> Familia: </h4>
-    <p> Testudinidae </p>
+     <p>Squamata</p>
 
-    <h4> Descripcion: </h4>
-    <p> Es fácilmente diferenciable de otros quelonios de la zona por su caparazón alto y abombado
-    y por sus extremidades cortas, robustas, y sin adaptaciones para la natación. Su coloración es
-    amarilla y negra. Es una especie herbívora. Pasa de los 40 años de vida. </p>
-      </div>
+<h4> Familia: </h4>
+<p> Colubridae </p>
+        </div>
+    )
+}
+
+export const Caimanes = () => {
+    return(
+        <div>
+            <h2> Caimanes (Caimaninae) </h2>
+            
+            <h3> Caiman Fissipes (Sauropsida) </h3>
+
+            <h4> Orden: </h4>
+            <p>Crocodilia</p>
+
+            <h4> Familia: </h4>
+            <p>Alligatoridae</p>
+        </div>
     )
 }
